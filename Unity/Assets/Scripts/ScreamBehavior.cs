@@ -24,7 +24,7 @@ class ScreamBehavior : MonoBehaviour
             if (Physics.Raycast(ray, out hit))
             {
                 Debug.Log(hit.transform.name);
-                if (hit.transform.name == "Panel (1)") {
+                if (hit.transform.name == "Sphere") {
                     audioSource.Play();
                 };
             }
