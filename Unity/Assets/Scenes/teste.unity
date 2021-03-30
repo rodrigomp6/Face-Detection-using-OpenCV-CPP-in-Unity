@@ -344,7 +344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f19401208268e9478fe1b518fa0a197, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraTeste: {fileID: 0}
+  cameraTeste: {fileID: 859454213}
 --- !u!82 &1102738436
 AudioSource:
   m_ObjectHideFlags: 0
