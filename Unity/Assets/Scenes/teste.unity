@@ -124,7 +124,6 @@ GameObject:
   - component: {fileID: 42470863}
   - component: {fileID: 42470862}
   - component: {fileID: 42470861}
-  - component: {fileID: 42470860}
   - component: {fileID: 42470859}
   m_Layer: 0
   m_Name: Sphere (6)
@@ -154,7 +153,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 418.12225
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -229,19 +228,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &42470860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 42470858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f19401208268e9478fe1b518fa0a197, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraTeste: {fileID: 859454213}
 --- !u!135 &42470861
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -308,7 +294,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 42470858}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 1.5, z: 32.51}
+  m_LocalPosition: {x: -8.2, y: -10.4, z: 159.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -357,7 +343,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &464937817
 GameObject:
@@ -371,7 +357,6 @@ GameObject:
   - component: {fileID: 464937822}
   - component: {fileID: 464937821}
   - component: {fileID: 464937820}
-  - component: {fileID: 464937819}
   - component: {fileID: 464937818}
   m_Layer: 0
   m_Name: Sphere (11)
@@ -476,19 +461,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &464937819
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 464937817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f19401208268e9478fe1b518fa0a197, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraTeste: {fileID: 859454213}
 --- !u!135 &464937820
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -555,7 +527,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 464937817}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.62, y: -1.05, z: 32.510002}
+  m_LocalPosition: {x: -11.82, y: -12.949999, z: 159.20001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -573,7 +545,6 @@ GameObject:
   - component: {fileID: 518486522}
   - component: {fileID: 518486521}
   - component: {fileID: 518486520}
-  - component: {fileID: 518486519}
   - component: {fileID: 518486518}
   m_Layer: 0
   m_Name: Sphere (13)
@@ -678,19 +649,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &518486519
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 518486517}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f19401208268e9478fe1b518fa0a197, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraTeste: {fileID: 859454213}
 --- !u!135 &518486520
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -757,7 +715,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 518486517}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.79, y: 1.5, z: 40.81}
+  m_LocalPosition: {x: -11.990002, y: -10.4, z: 167.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -775,7 +733,6 @@ GameObject:
   - component: {fileID: 653121584}
   - component: {fileID: 653121583}
   - component: {fileID: 653121582}
-  - component: {fileID: 653121581}
   - component: {fileID: 653121580}
   m_Layer: 0
   m_Name: Sphere (17)
@@ -880,19 +837,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &653121581
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 653121579}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f19401208268e9478fe1b518fa0a197, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraTeste: {fileID: 859454213}
 --- !u!135 &653121582
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -959,7 +903,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 653121579}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.62, y: -1.05, z: 40.81}
+  m_LocalPosition: {x: -11.82, y: -12.949999, z: 167.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -991,7 +935,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 859454210}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 9.03}
+  m_LocalPosition: {x: 0, y: 0, z: 4.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1627752101}
@@ -1059,7 +1003,6 @@ GameObject:
   - component: {fileID: 943450987}
   - component: {fileID: 943450986}
   - component: {fileID: 943450985}
-  - component: {fileID: 943450984}
   - component: {fileID: 943450983}
   m_Layer: 0
   m_Name: Sphere (10)
@@ -1164,19 +1107,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &943450984
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 943450982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f19401208268e9478fe1b518fa0a197, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraTeste: {fileID: 859454213}
 --- !u!135 &943450985
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1243,7 +1173,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 943450982}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.11, y: -1.05, z: 32.510002}
+  m_LocalPosition: {x: -8.09, y: -12.949999, z: 159.20001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1261,7 +1191,6 @@ GameObject:
   - component: {fileID: 1072092514}
   - component: {fileID: 1072092513}
   - component: {fileID: 1072092512}
-  - component: {fileID: 1072092511}
   - component: {fileID: 1072092510}
   m_Layer: 0
   m_Name: Sphere (12)
@@ -1366,19 +1295,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1072092511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1072092509}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f19401208268e9478fe1b518fa0a197, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraTeste: {fileID: 859454213}
 --- !u!135 &1072092512
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1445,7 +1361,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1072092509}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 1.5, z: 40.809998}
+  m_LocalPosition: {x: -8.200001, y: -10.4, z: 167.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1463,7 +1379,6 @@ GameObject:
   - component: {fileID: 1102738433}
   - component: {fileID: 1102738432}
   - component: {fileID: 1102738431}
-  - component: {fileID: 1102738435}
   - component: {fileID: 1102738436}
   m_Layer: 0
   m_Name: Sphere
@@ -1537,26 +1452,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1102738430}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 1.5, z: 26.7}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.200001, y: -10.4, z: 153.39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1102738435
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1102738430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f19401208268e9478fe1b518fa0a197, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraTeste: {fileID: 859454213}
 --- !u!82 &1102738436
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1665,7 +1567,6 @@ GameObject:
   - component: {fileID: 1347846995}
   - component: {fileID: 1347846994}
   - component: {fileID: 1347846993}
-  - component: {fileID: 1347846992}
   - component: {fileID: 1347846991}
   m_Layer: 0
   m_Name: Sphere (8)
@@ -1770,19 +1671,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1347846992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1347846990}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f19401208268e9478fe1b518fa0a197, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraTeste: {fileID: 859454213}
 --- !u!135 &1347846993
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1849,7 +1737,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1347846990}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.14, y: 1.5, z: 32.510002}
+  m_LocalPosition: {x: -4.0600014, y: -10.4, z: 159.20001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1867,7 +1755,6 @@ GameObject:
   - component: {fileID: 1375620518}
   - component: {fileID: 1375620517}
   - component: {fileID: 1375620516}
-  - component: {fileID: 1375620515}
   - component: {fileID: 1375620514}
   m_Layer: 0
   m_Name: Sphere (1)
@@ -1972,19 +1859,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1375620515
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1375620513}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f19401208268e9478fe1b518fa0a197, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraTeste: {fileID: 859454213}
 --- !u!135 &1375620516
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2051,11 +1925,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1375620513}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.79, y: 1.5, z: 26.700005}
+  m_LocalPosition: {x: -11.990002, y: -10.4, z: 153.39001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1400918893
 GameObject:
@@ -2069,7 +1943,6 @@ GameObject:
   - component: {fileID: 1400918898}
   - component: {fileID: 1400918897}
   - component: {fileID: 1400918896}
-  - component: {fileID: 1400918895}
   - component: {fileID: 1400918894}
   m_Layer: 0
   m_Name: Sphere (2)
@@ -2174,19 +2047,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1400918895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1400918893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f19401208268e9478fe1b518fa0a197, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraTeste: {fileID: 859454213}
 --- !u!135 &1400918896
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2253,7 +2113,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1400918893}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.14, y: 1.5, z: 26.700005}
+  m_LocalPosition: {x: -4.0600014, y: -10.4, z: 153.39001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2271,7 +2131,6 @@ GameObject:
   - component: {fileID: 1440497630}
   - component: {fileID: 1440497629}
   - component: {fileID: 1440497628}
-  - component: {fileID: 1440497627}
   - component: {fileID: 1440497626}
   m_Layer: 0
   m_Name: Sphere (5)
@@ -2376,19 +2235,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1440497627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1440497625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f19401208268e9478fe1b518fa0a197, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraTeste: {fileID: 859454213}
 --- !u!135 &1440497628
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2455,7 +2301,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1440497625}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.62, y: -1.05, z: 26.700005}
+  m_LocalPosition: {x: -11.82, y: -12.949999, z: 153.39001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2473,7 +2319,6 @@ GameObject:
   - component: {fileID: 1488941776}
   - component: {fileID: 1488941775}
   - component: {fileID: 1488941774}
-  - component: {fileID: 1488941773}
   - component: {fileID: 1488941772}
   m_Layer: 0
   m_Name: Sphere (7)
@@ -2578,19 +2423,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1488941773
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1488941771}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f19401208268e9478fe1b518fa0a197, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraTeste: {fileID: 859454213}
 --- !u!135 &1488941774
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2657,7 +2489,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1488941771}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.79, y: 1.5, z: 32.510002}
+  m_LocalPosition: {x: -11.990002, y: -10.4, z: 159.20001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2761,12 +2593,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1627752096}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 9.03}
+  m_LocalPosition: {x: -31.1, y: 0, z: 35.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 859454211}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1759137903
 GameObject:
@@ -2780,7 +2612,6 @@ GameObject:
   - component: {fileID: 1759137908}
   - component: {fileID: 1759137907}
   - component: {fileID: 1759137906}
-  - component: {fileID: 1759137905}
   - component: {fileID: 1759137904}
   m_Layer: 0
   m_Name: Sphere (16)
@@ -2885,19 +2716,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1759137905
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1759137903}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f19401208268e9478fe1b518fa0a197, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraTeste: {fileID: 859454213}
 --- !u!135 &1759137906
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2964,7 +2782,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1759137903}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.11, y: -1.05, z: 40.81}
+  m_LocalPosition: {x: -8.09, y: -12.949999, z: 167.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2982,7 +2800,6 @@ GameObject:
   - component: {fileID: 1843305478}
   - component: {fileID: 1843305477}
   - component: {fileID: 1843305476}
-  - component: {fileID: 1843305475}
   - component: {fileID: 1843305474}
   m_Layer: 0
   m_Name: Sphere (15)
@@ -3087,19 +2904,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1843305475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1843305473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f19401208268e9478fe1b518fa0a197, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraTeste: {fileID: 859454213}
 --- !u!135 &1843305476
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3166,7 +2970,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1843305473}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.14, y: -1.05, z: 40.81}
+  m_LocalPosition: {x: -4.0600014, y: -12.949999, z: 167.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3235,7 +3039,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1853992122}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: -31.1, y: 3, z: 26.170002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3253,7 +3057,6 @@ GameObject:
   - component: {fileID: 1861134878}
   - component: {fileID: 1861134877}
   - component: {fileID: 1861134876}
-  - component: {fileID: 1861134875}
   - component: {fileID: 1861134874}
   m_Layer: 0
   m_Name: Sphere (4)
@@ -3358,19 +3161,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1861134875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1861134873}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f19401208268e9478fe1b518fa0a197, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraTeste: {fileID: 859454213}
 --- !u!135 &1861134876
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3437,7 +3227,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1861134873}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.11, y: -1.05, z: 26.700005}
+  m_LocalPosition: {x: -8.09, y: -12.949999, z: 153.39001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3455,7 +3245,6 @@ GameObject:
   - component: {fileID: 1913383738}
   - component: {fileID: 1913383737}
   - component: {fileID: 1913383736}
-  - component: {fileID: 1913383735}
   - component: {fileID: 1913383734}
   m_Layer: 0
   m_Name: Sphere (9)
@@ -3560,19 +3349,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1913383735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1913383733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f19401208268e9478fe1b518fa0a197, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraTeste: {fileID: 859454213}
 --- !u!135 &1913383736
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3639,7 +3415,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1913383733}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.14, y: -1.05, z: 32.510002}
+  m_LocalPosition: {x: -4.0600014, y: -12.949999, z: 159.20001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3657,7 +3433,6 @@ GameObject:
   - component: {fileID: 1940785985}
   - component: {fileID: 1940785984}
   - component: {fileID: 1940785983}
-  - component: {fileID: 1940785982}
   - component: {fileID: 1940785981}
   m_Layer: 0
   m_Name: Sphere (14)
@@ -3762,19 +3537,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1940785982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1940785980}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f19401208268e9478fe1b518fa0a197, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraTeste: {fileID: 859454213}
 --- !u!135 &1940785983
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3841,7 +3603,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1940785980}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.14, y: 1.5, z: 40.81}
+  m_LocalPosition: {x: -4.0600014, y: -10.4, z: 167.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3859,7 +3621,6 @@ GameObject:
   - component: {fileID: 2001853897}
   - component: {fileID: 2001853896}
   - component: {fileID: 2001853895}
-  - component: {fileID: 2001853894}
   - component: {fileID: 2001853893}
   m_Layer: 0
   m_Name: Sphere (3)
@@ -3964,19 +3725,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &2001853894
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2001853892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f19401208268e9478fe1b518fa0a197, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraTeste: {fileID: 859454213}
 --- !u!135 &2001853895
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4043,7 +3791,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2001853892}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.14, y: -1.05, z: 26.700005}
+  m_LocalPosition: {x: -4.0600014, y: -12.949999, z: 153.39001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
