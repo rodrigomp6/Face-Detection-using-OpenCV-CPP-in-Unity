@@ -4,7 +4,7 @@ using UnityEngine;
 public class PositionAtFaceScreenSpace : MonoBehaviour
 {
     private float _camDistance;
-    private readonly float[] distances = new float[600];
+    private readonly float[] distances = new float[300];
     private int distancesArrayPos = 0;
     private float averageDistance = 0;
     private Vector3 lastHeadPos;
@@ -27,7 +27,7 @@ public class PositionAtFaceScreenSpace : MonoBehaviour
     {
         if (OpenCVFaceDetection.NormalizedFacePositions.Count == 0)
             return;
-                Vector3 headpos = new Vector3(OpenCVFaceDetection.NormalizedFacePositions[0].x*-20, OpenCVFaceDetection.NormalizedFacePositions[0].y*-20, OpenCVFaceDetection.NormalizedFacePositions[0].y);
+                Vector3 headpos = new Vector3(OpenCVFaceDetection.NormalizedFacePositions[0].x*-20, OpenCVFaceDetection.NormalizedFacePositions[0].y*-20, OpenCVFaceDetection.NormalizedFacePositions[0].z);
                 transform.position = Vector3.Lerp(transform.position, headpos, Time.deltaTime);
                 calculateScare(headpos);
     }
@@ -37,13 +37,13 @@ public class PositionAtFaceScreenSpace : MonoBehaviour
         var distance = Vector3.Distance(lastHeadPos, headPosition);
         lastHeadPos = transform.position;
         float variation = Math.Abs(distance * averageDistance);
-        if (variation >= .6)
+        if (variation >= .4)
         {
             if (!audioSource.isPlaying)
                 audioSource.Play();
         }
         distances[distancesArrayPos] = distance;
-        if (distancesArrayPos >= 599)
+        if (distancesArrayPos >= 299)
         {
             Debug.Log("Pronto para calcular susto");
             distancesArrayPos = 0;
