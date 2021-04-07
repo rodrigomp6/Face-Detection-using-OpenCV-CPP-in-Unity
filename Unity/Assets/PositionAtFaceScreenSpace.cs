@@ -3,24 +3,17 @@ using UnityEngine;
 
 public class PositionAtFaceScreenSpace : MonoBehaviour
 {
-    private float _camDistance;
     private readonly float[] distances = new float[300];
     private int distancesArrayPos = 0;
     private float averageDistance = 0;
     private Vector3 lastHeadPos;
+    private bool scareEnabled = false;
     AudioSource audioSource;
 
 
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
-/*        var personagem = GameObject.Find("Personagem");
-        if (personagem == null)
-            return;
-        _camDistance = Vector3.Distance(Camera.main.transform.position, transform.position);
-*/
-
-
     }
 
     void Update()
@@ -37,15 +30,15 @@ public class PositionAtFaceScreenSpace : MonoBehaviour
         var distance = Vector3.Distance(lastHeadPos, headPosition);
         lastHeadPos = transform.position;
         float variation = Math.Abs(distance * averageDistance);
-        if (variation >= .4)
+        if (variation >= .8 && (!audioSource.isPlaying) && scareEnabled)
         {
-            if (!audioSource.isPlaying)
-                audioSource.Play();
+            audioSource.Play();
         }
         distances[distancesArrayPos] = distance;
         if (distancesArrayPos >= 299)
         {
-            Debug.Log("Pronto para calcular susto");
+            Debug.Log("Scare enabled");
+            scareEnabled = true;
             distancesArrayPos = 0;
         }
         else
