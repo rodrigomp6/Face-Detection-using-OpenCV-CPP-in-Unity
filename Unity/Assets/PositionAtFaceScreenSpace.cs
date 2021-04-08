@@ -30,10 +30,10 @@ public class PositionAtFaceScreenSpace : MonoBehaviour
         var distance = Vector3.Distance(lastHeadPos, headPosition);
         lastHeadPos = transform.position;
         float variation = Math.Abs(distance * averageDistance);
-        if (variation >= .6 && (!audioSource.isPlaying) && scareEnabled)
+       /* if (variation >= .6 && (!audioSource.isPlaying) && scareEnabled)
         {
-            audioSource.Play();
-        }
+            //audioSource.Play();
+        }*/
         distances[distancesArrayPos] = distance;
         if (distancesArrayPos >= 299)
         {

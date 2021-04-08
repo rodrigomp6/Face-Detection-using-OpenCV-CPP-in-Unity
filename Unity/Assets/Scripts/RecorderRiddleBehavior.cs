@@ -5,40 +5,39 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-class RecorderRiddleBehavior : MonoBehaviour
+class ScreamBehavior : MonoBehaviour
 {
-    private AudioSource _audioSource;
-    private GameObject _plagueDoc;
+    AudioSource audioSource;
+    public Camera cameraTeste;
 
     private void Start()
     {
-        _audioSource = GetComponent<AudioSource>();
-        _plagueDoc = GameObject.Find("PlagueDoctor");
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            if (RiddleManager.errorCount >= 3)
-            {
-                _plagueDoc.transform.position = new Vector3(-9.13f, -12.37f, 3.654f);
-                _plagueDoc.GetComponent<AudioSource>().Play();
-            }
             RaycastHit hit;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Ray ray = cameraTeste.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out hit))
             {
-                if (hit.transform.name.Equals("BP_Book_Inspection9_4"))
-                {
-                    if (RiddleManager.tryLetter('g'))
-                        _audioSource.Play();
-                    else
-                        RiddleManager.errorCount++;
-                }
-
+                Debug.Log(hit.transform.name);
+                if (hit.transform.name == "Sphere") {
+                    audioSource.Play();
+                };
             }
         }
+    }
+
+    void FixedUpdate()
+    {
+        Ray ray = cameraTeste.ScreenPointToRay(Vector3.forward);
+        RaycastHit hit;
+
+        if (Physics.Raycast(ray, out hit, 100))
+            Debug.DrawLine(ray.origin, hit.point);
     }
 
 }
